@@ -1,3 +1,8 @@
+Security Issues
+===============
+
+2023-11-03: CVE-2022-38900 - decode-uri-component 0.2.0 is vulnerable to Improper Input Validation resulting in DoS. Updated to 0.2.2
+
 Deprecated
 ==========
 
