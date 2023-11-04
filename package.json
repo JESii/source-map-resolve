@@ -1,9 +1,9 @@
 {
-  "name": "source-map-resolve",
-  "version": "0.6.0",
-  "author": "Simon Lydell",
+  "name": "source-map-resolve-secure",
+  "version": "0.6.1",
+  "author": "Jon Seidel; (Forked from Simon) Lydell",
   "license": "MIT",
-  "description": "Resolve the source map and/or sources for a generated file.",
+  "description": "Resolve the source map and/or sources for a generated file. Provides additional security support.",
   "keywords": [
     "source map",
     "sourcemap",
@@ -18,9 +18,7 @@
     "finder"
   ],
   "repository": "lydell/source-map-resolve",
-  "files": [
-    "index.js"
-  ],
+  "files": ["index.js"],
   "scripts": {
     "lint": "jshint index.js test/",
     "unit": "node test/index.js && node test/read.js && node test/windows.js",
